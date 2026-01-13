@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Merged ECG + GSR Ball (Adjusted)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+
+  <!-- 拆出来的 CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <button id="connect">Connect</button>
+  <div id="alert">BPM mismatch</div>
+  <div id="info">BPM: —</div>
+  <div id="ecgLegend">
+    ECG: real-time raw trace (drawn through the ball) — GSR controls color/size
+  </div>
+
+  <!-- 主逻辑 -->
+  <script src="sketch.js"></script>
+</body>
+</html>
